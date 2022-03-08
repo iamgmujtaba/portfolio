@@ -1,8 +1,9 @@
 ### Hey there, you found me. I am [Ghulam Mujtaba](https://www.gmujtaba.com/) 👋
 
 <a href="https://github.com/iamgmujtaba"><img src="https://komarev.com/ghpvc/?username=iamgmujtaba" alt="iamgmujtaba" /></a>
+<a href="https://github.com/iamgmujtaba?tab=followers"><img src="https://img.shields.io/github/followers/iamgmujtaba"></a>
+<a href="mailto:gmujtabakorai@gmail.com"><img src="https://img.shields.io/badge/Email-gmujtabakorai@gmail.com-blue" alt="Email" /></a>
 
-[![Blog](https://img.shields.io/badge/Blog-F0773A?style=flat-square&logo=firefox-browser&logoColor=white)](https://www.gmujtaba.com/)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-1568BF?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/iamgmujtaba/)
 
 
