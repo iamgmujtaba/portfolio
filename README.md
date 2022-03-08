@@ -10,4 +10,4 @@
 
 <!-- <img align="right" margin-bottom="-100px" src="./highrise.gif" width="125" height="90"> -->
 
-<img src="https://github-profile-trophy.vercel.app/?username=iamgmujtaba&theme=oldie">
+<img src="https://github-profile-trophy.vercel.app/?username=iamgmujtaba&theme=onedark">
