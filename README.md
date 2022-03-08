@@ -1,4 +1,4 @@
-### Hey there, you found me. I am [Ghulam Mujtaba](https://www.gmujtaba.com/)👋
+### Hey there, you found me. I am [Ghulam Mujtaba](https://www.gmujtaba.com/) 👋
 
 [![Blog](https://img.shields.io/badge/Blog-F0773A?style=flat-square&logo=firefox-browser&logoColor=white)](https://www.gmujtaba.com/)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-1568BF?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/iamgmujtaba/)
