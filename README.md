@@ -7,3 +7,7 @@
 [![github stats](https://github-readme-stats.vercel.app/api?username=iamgmujtaba&show_icons=true&hide_title=true&hide_border=true&theme=onedark)](https://www.gmujtaba.com/)
 
 [![github contribution grid snake animation](https://cdn.jsdelivr.net/gh/iamgmujtaba/iamgmujtaba@output/github-contribution-grid-snake.svg)](https://github.com/iamgmujtaba)
+
+<img align="right" margin-bottom="-100px" src="./high-rise.gif" width="120" height="120">
+
+<img align="left" src="https://github-profile-trophy.vercel.app/?username=iamgmujtaba&theme=oldie">
