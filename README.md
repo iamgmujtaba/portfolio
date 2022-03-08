@@ -8,6 +8,6 @@
 
 [![github contribution grid snake animation](https://cdn.jsdelivr.net/gh/iamgmujtaba/iamgmujtaba@output/github-contribution-grid-snake.svg)](https://github.com/iamgmujtaba)
 
-<img align="right" margin-bottom="-100px" src="./highrise.gif" width="120" height="120">
+<img align="right" margin-bottom="-100px" src="./highrise.gif" width="249" height="180">
 
 <img align="left" src="https://github-profile-trophy.vercel.app/?username=iamgmujtaba&theme=oldie">
