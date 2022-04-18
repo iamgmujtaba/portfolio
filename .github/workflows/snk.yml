@@ -3,12 +3,12 @@ name: generate animation
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */24 * * *" # every 24 hours
+    - cron: "0 */120 * * *" # every five days
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 100
+    timeout-minutes: 10
 
     steps:
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
