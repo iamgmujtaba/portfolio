@@ -20,5 +20,10 @@ Feel free to reach out if you're interested in collaboration or want to connect!
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-
+- [User friendly LLaMa 3.2 Multimodal Web UI using Ollama](https://gmujtaba.com/blog/2024/LLaMa3.2-multimodal-web-ui-using-ollama/)
+- [AcademicJobToolkit - Streamline Your Academic Job Applications](https://gmujtaba.com/blog/2024/academic-job-search-toolkit/)
+- [Configure DASH Server on Windows 10/11](https://gmujtaba.com/blog/2024/configure-dash-server-windows/)
+- [Configure HLS Server on Windows 10/11](https://gmujtaba.com/blog/2024/configure-hls-server-on-windows/)
+- [Generate Thumbnail Containers from Videos like YouTube](https://gmujtaba.com/blog/2024/generate-thumbnail-containers-from-videos/)
+- [FFmpeg Installation on the Jetson TX2](https://gmujtaba.com/blog/2024/ffmpeg-installation-jetson-tx2/)
 <!-- BLOG-POST-LIST:END -->
