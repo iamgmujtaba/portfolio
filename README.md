@@ -8,13 +8,10 @@
 - 📫 **Email**: [gmujtaba@ieee.org](mailto:gmujtaba@ieee.org)
 
 <a href="https://github.com/iamgmujtaba"><img src="https://komarev.com/ghpvc/?username=iamgmujtaba" alt="iamgmujtaba" /></a>
-<a href="https://github.com/iamgmujtaba?tab=followers"><img src="https://img.shields.io/github/followers/iamgmujtaba"></a>>
+<a href="https://github.com/iamgmujtaba?tab=followers"><img src="https://img.shields.io/github/followers/iamgmujtaba"></a>
 
 ---
 
-
-<a href="https://github.com/iamgmujtaba"><img src="https://komarev.com/ghpvc/?username=iamgmujtaba" alt="Profile views" /></a>
-<a href="https://github.com/iamgmujtaba?tab=followers"><img src="https://img.shields.io/github/followers/iamgmujtaba?label=Followers&style=social" alt="GitHub followers" /></a>
 
 [![github contribution grid snake animation](https://cdn.jsdelivr.net/gh/iamgmujtaba/iamgmujtaba@output/github-contribution-grid-snake.svg)](https://github.com/iamgmujtaba)
 
