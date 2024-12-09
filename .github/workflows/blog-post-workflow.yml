@@ -14,5 +14,5 @@ jobs:
       - name: Pull in dev.to posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://iamgmujtaba.github.io/sitemap.xml"
+          feed_list: "https://gmujtaba.com/feed" # Replace with your actual RSS feed URL
           max_post_count: 8
