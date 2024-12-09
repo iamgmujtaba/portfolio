@@ -1,4 +1,8 @@
-### Hi there, you have found me. I am [Mujtaba](https://www.gmujtaba.com/) 👋
+### Hi there, you have found me.
+
+📫 **Get to Know Me Better:**
+- Portfolio: [gmujtaba.com](https://www.gmujtaba.com/))
+- GitHub Contributions: [Github resume](https://resume.github.io/?iamgmujtaba)
 
 <a href="https://github.com/iamgmujtaba"><img src="https://komarev.com/ghpvc/?username=iamgmujtaba" alt="iamgmujtaba" /></a>
 <a href="https://github.com/iamgmujtaba?tab=followers"><img src="https://img.shields.io/github/followers/iamgmujtaba"></a>
