@@ -1,18 +1,21 @@
-### Hi there, you have found me.
+# Hi there 👋, I'm Ghulam Mujtaba
 
-📫 **Get to Know Me Better:**
-- Portfolio: [gmujtaba.com](https://www.gmujtaba.com/)
-- GitHub Contributions: [Github resume](https://resume.github.io/?iamgmujtaba)
+---
+- 🌐 **Personal Website**: [gmujtaba.com](https://gmujtaba.com/)
+- 🐙 GitHub Contributions: [![GitHub Resume](https://img.shields.io/badge/GitHub-Resume-blue?logo=github&link=https://resume.github.io/?iamgmujtaba)](https://resume.github.io/?iamgmujtaba)
+- 💼 **LinkedIn**: [iamgmujtaba](https://www.linkedin.com/in/iamgmujtaba/)
+- 🐦 **Twitter**: [iamgmujtaba](https://twitter.com/iamgmujtaba)
+- 📫 **Email**: [gmujtaba@ieee.org](mailto:gmujtaba@ieee.org)
 
 <a href="https://github.com/iamgmujtaba"><img src="https://komarev.com/ghpvc/?username=iamgmujtaba" alt="iamgmujtaba" /></a>
-<a href="https://github.com/iamgmujtaba?tab=followers"><img src="https://img.shields.io/github/followers/iamgmujtaba"></a>
-<!-- 
-<div>
-  <img height="170" align="left" src="https://github-readme-stats.vercel.app/api?username=iamgmujtaba&count_private=true&include_all_commits=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamgmujtaba&layout=compact" />
-</div>
- -->
+<a href="https://github.com/iamgmujtaba?tab=followers"><img src="https://img.shields.io/github/followers/iamgmujtaba"></a>>
+
+---
+
+
+<a href="https://github.com/iamgmujtaba"><img src="https://komarev.com/ghpvc/?username=iamgmujtaba" alt="Profile views" /></a>
+<a href="https://github.com/iamgmujtaba?tab=followers"><img src="https://img.shields.io/github/followers/iamgmujtaba?label=Followers&style=social" alt="GitHub followers" /></a>
 
 [![github contribution grid snake animation](https://cdn.jsdelivr.net/gh/iamgmujtaba/iamgmujtaba@output/github-contribution-grid-snake.svg)](https://github.com/iamgmujtaba)
 
-
+Feel free to reach out if you're interested in collaboration or want to connect!
