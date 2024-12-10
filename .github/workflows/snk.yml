@@ -3,7 +3,7 @@ name: Generate Snake Animation
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */5 * * *" # every 5 hours
+    - cron: "0 */120 * * *" # every five days
 
 jobs:
   generate:
@@ -14,17 +14,14 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate Snake Animation using Docker
-        run: |
-          docker run \
-            --rm \
-            -v ${{ github.workspace }}:/data \
-            ghcr.io/platane/snk \
-            generate \
-            --user-name ${{ github.repository_owner }} \
-            --output /data/dist/github-contribution-grid-snake.svg \
+      - name: Generate Snake Animation
+        uses: Platane/snk@v2
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/github-contribution-grid-snake.svg
+          args: |
             --color_snake "#8A2BE2" \
-            --color_dots "#40E0D0" \
+            --color_dots "#40E0D0,#4B0082,#FFFFFF" \
             --color_grid "#444444" \
             --color_background "none" \
             --speed 2
