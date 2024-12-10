@@ -1,31 +1,35 @@
-name: Generate Contribution Snake Animation
+name: Generate Contribution Snake
 
 on:
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:
   schedule:
     - cron: "0 0 */3 * *"  # Run every 3 days at midnight UTC
 
-# Prevent multiple workflow runs from conflicting
 concurrency:
   group: snake-animation
   cancel-in-progress: true
 
 jobs:
   generate-snake:
-    name: Generate Snake Animation
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
-      - name: Generate Snake SVG
-        uses: Platane/snk@v3.2.0  # Using latest stable version
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create dist directory
+        run: mkdir -p dist
+
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3.2.0
         id: snake-generator
-        continue-on-error: true
         with:
           github_user_name: iamgmujtaba
-          svg_out_path: github-contribution-grid-snake.svg
-          snake_color: '#36BCF7'
-          date_format: YYYY-MM-DD
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy to GitHub Pages
         if: success()
@@ -33,9 +37,8 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "🐍 Generate Contribution Snake"
-          author_name: GitHub Actions
-          author_email: actions@github.com
+          commit_message: "🐍 Generate Snake Animation"
+          committer: GitHub Actions Bot <actions@github.com>
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
