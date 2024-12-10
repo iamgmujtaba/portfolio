@@ -1,21 +1,24 @@
 # Hi there 👋, I'm Ghulam Mujtaba
 
 ---
-- 🌐 **Personal Website**: [gmujtaba.com](https://gmujtaba.com/)
-- :octocat: **GitHub Contributions**: [![GitHub Resume](https://img.shields.io/badge/GitHub-Resume-blue?logo=github&link=https://resume.github.io/?iamgmujtaba)](https://resume.github.io/?iamgmujtaba)
--  💼 **LinkedIn**: [iamgmujtaba](https://www.linkedin.com/in/iamgmujtaba/)
-- :bird: **Twitter**: [iamgmujtaba](https://twitter.com/iamgmujtaba)
-- :email: **Email**: [gmujtaba@ieee.org](mailto:gmujtaba@ieee.org)
-
-<a href="https://github.com/iamgmujtaba"><img src="https://komarev.com/ghpvc/?username=iamgmujtaba" alt="iamgmujtaba" /></a>
-<a href="https://github.com/iamgmujtaba?tab=followers"><img src="https://img.shields.io/github/followers/iamgmujtaba"></a>
+## Connect With Me
+[![Website](https://img.shields.io/badge/Website-gmujtaba.com-blue?style=flat&logo=google-chrome)](https://gmujtaba.com/)
+[![GitHub Resume](https://img.shields.io/badge/GitHub-Resume-blue?logo=github&link=https://resume.github.io/?iamgmujtaba)](https://resume.github.io/?iamgmujtaba)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-iamgmujtaba-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/iamgmujtaba/)
+[![Twitter](https://img.shields.io/badge/Twitter-iamgmujtaba-blue?style=flat&logo=twitter)](https://twitter.com/iamgmujtaba)
+[![Email](https://img.shields.io/badge/Email-gmujtaba@ieee.org-red?style=flat&logo=gmail)](mailto:gmujtaba@ieee.org)
 
 Feel free to reach out if you're interested in collaboration or want to connect!
 
 ---
 
+## GitHub Metrics
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamgmujtaba&theme=dark" alt="GitHub Streak"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=iamgmujtaba&theme=darkhub&row=1" alt="trophy"/>
+</p>
 
-[![github contribution grid snake animation](https://cdn.jsdelivr.net/gh/iamgmujtaba/iamgmujtaba@output/github-contribution-grid-snake.svg)](https://github.com/iamgmujtaba)
+
 
 ## Latest Blog Posts
 Auto Generated
@@ -26,3 +29,15 @@ Auto Generated
 - [Configure HLS Server on Windows 10/11](https://gmujtaba.com/blog/2024/configure-hls-server-on-windows/)
 - [Generate Thumbnail Containers from Videos like YouTube](https://gmujtaba.com/blog/2024/generate-thumbnail-containers-from-videos/)
 <!-- BLOG-POST-LIST:END -->
+
+
+![Snake animation](https://cdn.jsdelivr.net/gh/iamgmujtaba/iamgmujtaba@output/github-contribution-grid-snake.svg)
+
+<p align="center">
+  <a href="https://github.com/iamgmujtaba">
+    <img src="https://komarev.com/ghpvc/?username=iamgmujtaba" alt="profile views" />
+  </a>
+  <a href="https://github.com/iamgmujtaba?tab=followers">
+    <img src="https://img.shields.io/github/followers/iamgmujtaba" alt="followers" />
+  </a>
+</p>
