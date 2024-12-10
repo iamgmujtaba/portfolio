@@ -14,26 +14,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Install Dependencies
-        run: |
-          pip install numpy
-          pip install git+https://github.com/Platane/snk.git
-
       - name: Generate Snake Animation
-        run: |
-          snk generate \
-            --user-name ${{ github.repository_owner }} \
-            --output dist/github-contribution-grid-snake.svg \
-            --color_snake "#8A2BE2" \
-            --color_dots "#40E0D0" \
-            --color_grid "#444444" \
-            --color_background "none" \
-            --speed 2
+        uses: Platane/snk@v2
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/github-contribution-grid-snake.svg
+          config_name: default
 
       - name: Push SVG to Output Branch
         uses: crazy-max/ghaction-github-pages@v2.6.0
