@@ -14,20 +14,31 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate `github-contribution-grid-snake.svg`
-        uses: Platane/snk@v2.2.1
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
-          github_user_name: iamgmujtaba
-          svg_out_path: dist/github-contribution-grid-snake.svg
-          color_snake: "#8A2BE2"      # Customize snake color
-          color_dots: "#40E0D0"       # Customize dots color
-          color_grid: "#444444"       # Customize grid color
-          color_background: "none"    # Set background color
-          speed: 2                    # Adjust speed (1-10)
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install numpy
+          pip install git+https://github.com/Platane/snk.git
+
+      - name: Generate Snake Animation
+        run: |
+          snk generate \
+            --user-name ${{ github.repository_owner }} \
+            --output dist/github-contribution-grid-snake.svg \
+            --color_snake "#8A2BE2" \
+            --color_dots "#40E0D0" \
+            --color_grid "#444444" \
+            --color_background "none" \
+            --speed 2
 
       - name: Push SVG to Output Branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: dist
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
