@@ -1,9 +1,9 @@
-name: Generate Snake Animation
+name: generate animation
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */120 * * *" # every five days
+    - cron: "0 */5 * * *" # every 5 hours
 
 jobs:
   generate:
@@ -11,29 +11,20 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk@master
+        with:
+          github_user_name: iamgmujtaba
+          svg_out_path: dist/github-contribution-grid-snake.svg
 
-      - name: Generate Snake Animation using Docker
-        run: |
-          mkdir -p dist
-          docker run \
-            --rm \
-            -v ${{ github.workspace }}:/data \
-            ghcr.io/platane/snk:latest \
-            generate \
-            --user-name iamgmujtaba \
-            --output /data/dist/github-contribution-grid-snake.svg \
-            --color_snake "#8A2BE2" \
-            --color_dots "#40E0D0,#4B0082,#FFFFFF" \
-            --color_grid "#444444" \
-            --color_background "none" \
-            --speed 2
-
-      - name: Push SVG to Output Branch
+      # push the content of <build_dir> to a branch
+      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
+      - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
           target_branch: output
           build_dir: dist
+          author: iamgmujtaba <gmujtabakorai@gmail.com>
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
