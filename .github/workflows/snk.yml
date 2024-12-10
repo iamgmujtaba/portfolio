@@ -1,30 +1,46 @@
-name: generate animation
+name: Generate Contribution Snake Animation
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # Manual trigger
   schedule:
-    - cron: "0 */5 * * *" # every 5 hours
+    - cron: "0 0 */3 * *"  # Run every 3 days at midnight UTC
+
+# Prevent multiple workflow runs from conflicting
+concurrency:
+  group: snake-animation
+  cancel-in-progress: true
 
 jobs:
-  generate:
+  generate-snake:
+    name: Generate Snake Animation
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk@master
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3.2.0  # Using latest stable version
+        id: snake-generator
+        continue-on-error: true
         with:
           github_user_name: iamgmujtaba
           svg_out_path: dist/github-contribution-grid-snake.svg
+          snake_color: '#36BCF7'
+          date_format: YYYY-MM-DD
 
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v2.6.0
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v4.0.0
         with:
           target_branch: output
           build_dir: dist
-          author: iamgmujtaba <gmujtabakorai@gmail.com>
+          commit_message: "🐍 Generate Contribution Snake"
+          author_name: GitHub Actions
+          author_email: actions@github.com
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Handle Failure
+        if: failure()
+        run: |
+          echo "::error::Snake animation generation failed"
+          exit 1
