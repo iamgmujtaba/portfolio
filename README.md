@@ -18,7 +18,7 @@ Feel free to reach out if you're interested in collaboration or want to connect!
 [![github contribution grid snake animation](https://cdn.jsdelivr.net/gh/iamgmujtaba/iamgmujtaba@output/github-contribution-grid-snake.svg)](https://github.com/iamgmujtaba)
 
 ## Latest Blog Posts
-
+Auto Generated
 <!-- BLOG-POST-LIST:START -->
 - [User friendly LLaMa 3.2 Multimodal Web UI using Ollama](https://gmujtaba.com/blog/2024/LLaMa3.2-multimodal-web-ui-using-ollama/)
 - [AcademicJobToolkit - Streamline Your Academic Job Applications](https://gmujtaba.com/blog/2024/academic-job-search-toolkit/)
