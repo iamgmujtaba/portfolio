@@ -23,7 +23,7 @@ jobs:
         continue-on-error: true
         with:
           github_user_name: iamgmujtaba
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          svg_out_path: github-contribution-grid-snake.svg
           snake_color: '#36BCF7'
           date_format: YYYY-MM-DD
 
