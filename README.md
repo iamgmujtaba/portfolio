@@ -12,13 +12,14 @@ Feel free to reach out if you're interested in collaboration or want to connect!
 
 ---
 
+<!--
 ## GitHub Metrics
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamgmujtaba&theme=dark" alt="GitHub Streak"/>
   <img src="https://github-profile-trophy.vercel.app/?username=iamgmujtaba&theme=darkhub&row=1" alt="trophy"/>
 </p>
 
-
+-->
 
 ## Latest Blog Posts
 Auto Generated
